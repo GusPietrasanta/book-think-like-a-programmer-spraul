@@ -5,7 +5,7 @@
 
 #include <iostream>
 
-char digit;
+int digit;
 int oddLengthChecksum = 0;
 int evenLengthChecksum = 0;
 int position = 1;
