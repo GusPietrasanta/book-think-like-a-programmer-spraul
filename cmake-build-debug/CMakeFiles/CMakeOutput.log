@@ -1,0 +1,179 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/msys64/mingw64/bin/clang.exe 
+Build flags: -fsanitize=signed-integer-overflow;-fsanitize=undefined;-ggdb3;-O0;-std=c11;-Wall;-Werror;-Wextra;-Wno-sign-compare;-Wno-unused-parameter;-Wno-unused-variable;-Wshadow
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is Clang, found in "C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/msys64/mingw64/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_4fb75 && [1/2] Building C object CMakeFiles/cmTC_4fb75.dir/CMakeCCompilerABI.c.obj
+clang version 14.0.3
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:/msys64/mingw64/bin
+ (in-process)
+ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp -resource-dir C:/msys64/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_4fb75.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_4fb75.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/14.0.3/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/include -O0 -Wall -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow -std=c11 -fdebug-compilation-dir=C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 --dependent-lib=libclang_rt.ubsan_standalone-x86_64.a -fsanitize=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,return,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,unreachable,vla-bound,vptr -fsanitize-recover=alignment,array-bounds,bool,builtin,enum,float-cast-overflow,integer-divide-by-zero,nonnull-attribute,null,pointer-overflow,returns-nonnull-attribute,shift-base,shift-exponent,signed-integer-overflow,vla-bound,vptr -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o CMakeFiles/cmTC_4fb75.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c"
+clang -cc1 version 14.0.3 based upon LLVM 14.0.3 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/msys64/mingw64/lib/clang/14.0.3/include
+ C:/msys64/mingw64/include
+End of search list.
+[2/2] Linking C static library libcmTC_4fb75.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/msys64/mingw64/lib/clang/14.0.3/include]
+    add: [C:/msys64/mingw64/include]
+  end of search list found
+  collapse include dir [C:/msys64/mingw64/lib/clang/14.0.3/include] ==> [C:/msys64/mingw64/lib/clang/14.0.3/include]
+  collapse include dir [C:/msys64/mingw64/include] ==> [C:/msys64/mingw64/include]
+  implicit include dirs: [C:/msys64/mingw64/lib/clang/14.0.3/include;C:/msys64/mingw64/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_4fb75 && [1/2] Building C object CMakeFiles/cmTC_4fb75.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [clang version 14.0.3]
+  ignore line: [Target: x86_64-w64-windows-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/msys64/mingw64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:/msys64/mingw64/bin/clang.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp -resource-dir C:/msys64/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_4fb75.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_4fb75.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/lib/clang/14.0.3/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/include -O0 -Wall -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow -std=c11 -fdebug-compilation-dir=C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 --dependent-lib=libclang_rt.ubsan_standalone-x86_64.a -fsanitize=alignment array-bounds bool builtin enum float-cast-overflow integer-divide-by-zero nonnull-attribute null pointer-overflow return returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow unreachable vla-bound vptr -fsanitize-recover=alignment array-bounds bool builtin enum float-cast-overflow integer-divide-by-zero nonnull-attribute null pointer-overflow returns-nonnull-attribute shift-base shift-exponent signed-integer-overflow vla-bound vptr -fno-use-cxa-atexit -fgnuc-version=4.2.1 -exception-model=seh -faddrsig -o CMakeFiles/cmTC_4fb75.dir/CMakeCCompilerABI.c.obj -x c "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCCompilerABI.c"]
+  ignore line: [clang -cc1 version 14.0.3 based upon LLVM 14.0.3 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/msys64/mingw64/lib/clang/14.0.3/include]
+  ignore line: [ C:/msys64/mingw64/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C static library libcmTC_4fb75.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_d4537 && [1/2] Building CXX object CMakeFiles/cmTC_d4537.dir/CMakeCXXCompilerABI.cpp.obj
+clang version 14.0.3
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:/msys64/mingw64/bin
+ (in-process)
+ "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp -resource-dir C:/msys64/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_d4537.dir\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d4537.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/backward -internal-isystem C:/msys64/mingw64/include/c++/12.1.0 -internal-isystem C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/12.1.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/clang/14.0.3/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -fdebug-compilation-dir=C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_d4537.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp"
+clang -cc1 version 14.0.3 based upon LLVM 14.0.3 default target x86_64-w64-windows-gnu
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++"
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward"
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0"
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/x86_64-w64-mingw32"
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/backward"
+ignoring nonexistent directory "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++"
+ignoring nonexistent directory "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32"
+ignoring nonexistent directory "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward"
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"
+ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/msys64/mingw64/include/c++/12.1.0
+ C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32
+ C:/msys64/mingw64/include/c++/12.1.0/backward
+ C:/msys64/mingw64/lib/clang/14.0.3/include
+ C:/msys64/mingw64/include
+End of search list.
+[2/2] Linking CXX static library libcmTC_d4537.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/msys64/mingw64/include/c++/12.1.0]
+    add: [C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32]
+    add: [C:/msys64/mingw64/include/c++/12.1.0/backward]
+    add: [C:/msys64/mingw64/lib/clang/14.0.3/include]
+    add: [C:/msys64/mingw64/include]
+  end of search list found
+  collapse include dir [C:/msys64/mingw64/include/c++/12.1.0] ==> [C:/msys64/mingw64/include/c++/12.1.0]
+  collapse include dir [C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32] ==> [C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32]
+  collapse include dir [C:/msys64/mingw64/include/c++/12.1.0/backward] ==> [C:/msys64/mingw64/include/c++/12.1.0/backward]
+  collapse include dir [C:/msys64/mingw64/lib/clang/14.0.3/include] ==> [C:/msys64/mingw64/lib/clang/14.0.3/include]
+  collapse include dir [C:/msys64/mingw64/include] ==> [C:/msys64/mingw64/include]
+  implicit include dirs: [C:/msys64/mingw64/include/c++/12.1.0;C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32;C:/msys64/mingw64/include/c++/12.1.0/backward;C:/msys64/mingw64/lib/clang/14.0.3/include;C:/msys64/mingw64/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.1/bin/ninja/win/ninja.exe cmTC_d4537 && [1/2] Building CXX object CMakeFiles/cmTC_d4537.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [clang version 14.0.3]
+  ignore line: [Target: x86_64-w64-windows-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: C:/msys64/mingw64/bin]
+  ignore line: [ (in-process)]
+  ignore line: [ "C:/msys64/mingw64/bin/clang++.exe" -cc1 -triple x86_64-w64-windows-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=none -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -mms-bitfields -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp -resource-dir C:/msys64/mingw64/lib/clang/14.0.3 -dependency-file "CMakeFiles\\cmTC_d4537.dir\\CMakeCXXCompilerABI.cpp.obj.d" -MT CMakeFiles/cmTC_d4537.dir/CMakeCXXCompilerABI.cpp.obj -sys-header-deps -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++ -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/backward -internal-isystem C:/msys64/mingw64/include/c++/12.1.0 -internal-isystem C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/include/c++/12.1.0/backward -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++ -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32 -internal-isystem C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward -internal-isystem C:/msys64/mingw64/lib/clang/14.0.3/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include -internal-isystem C:/msys64/mingw64/x86_64-w64-mingw32/include -internal-isystem C:/msys64/mingw64/include -fdeprecated-macro -fdebug-compilation-dir=C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/CMakeTmp -ferror-limit 19 -fno-use-cxa-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -exception-model=seh -faddrsig -o CMakeFiles/cmTC_d4537.dir/CMakeCXXCompilerABI.cpp.obj -x c++ "C:/Program Files/JetBrains/CLion 2022.2.1/bin/cmake/win/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp"]
+  ignore line: [clang -cc1 version 14.0.3 based upon LLVM 14.0.3 default target x86_64-w64-windows-gnu]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/backward"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/x86_64-w64-mingw32"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include/c++/12.1.0/backward"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/12.1.0/include/c++/backward"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/sys-root/mingw/include"]
+  ignore line: [ignoring nonexistent directory "C:/msys64/mingw64/x86_64-w64-mingw32/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/msys64/mingw64/include/c++/12.1.0]
+  ignore line: [ C:/msys64/mingw64/include/c++/12.1.0/x86_64-w64-mingw32]
+  ignore line: [ C:/msys64/mingw64/include/c++/12.1.0/backward]
+  ignore line: [ C:/msys64/mingw64/lib/clang/14.0.3/include]
+  ignore line: [ C:/msys64/mingw64/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX static library libcmTC_d4537.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

@@ -1,0 +1,5 @@
+# ninja log v5
+414	513	6897736111587111	HelloWorld.exe	737fdb0595f019cd
+1	189	6897751331244492	build.ninja	e41dc85b96a5d353
+1	478	6897751402072077	CMakeFiles/HelloWorld.dir/luhnChecksumMySolution.cpp.obj	f6e2f17363968400
+480	573	6897751403024040	HelloWorld.exe	3c0c0c66c830abda

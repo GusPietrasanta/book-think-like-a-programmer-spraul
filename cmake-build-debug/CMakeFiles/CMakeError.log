@@ -1,0 +1,31 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/msys64/mingw64/bin/clang.exe 
+Build flags: -fsanitize=signed-integer-overflow;-fsanitize=undefined;-ggdb3;-O0;-std=c11;-Wall;-Werror;-Wextra;-Wno-sign-compare;-Wno-unused-parameter;-Wno-unused-variable;-Wshadow
+Id flags:  
+
+The output was:
+1
+Warning: corrupt .drectve at end of def file
+C:/msys64/mingw64/bin/ld: C:/Users/USER/AppData/Local/Temp/CMakeCCompilerId-ad577f.o: in function `main':
+C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:805: undefined reference to `__ubsan_handle_pointer_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:805: undefined reference to `__ubsan_handle_type_mismatch_v1'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:805: undefined reference to `__ubsan_handle_add_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:806: undefined reference to `__ubsan_handle_pointer_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:806: undefined reference to `__ubsan_handle_type_mismatch_v1'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:806: undefined reference to `__ubsan_handle_add_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:807: undefined reference to `__ubsan_handle_pointer_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:807: undefined reference to `__ubsan_handle_type_mismatch_v1'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:807: undefined reference to `__ubsan_handle_add_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:809: undefined reference to `__ubsan_handle_out_of_bounds'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:809: undefined reference to `__ubsan_handle_pointer_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:809: undefined reference to `__ubsan_handle_type_mismatch_v1'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:809: undefined reference to `__ubsan_handle_add_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:823: undefined reference to `__ubsan_handle_pointer_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:823: undefined reference to `__ubsan_handle_type_mismatch_v1'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:823: undefined reference to `__ubsan_handle_add_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:824: undefined reference to `__ubsan_handle_pointer_overflow'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:824: undefined reference to `__ubsan_handle_type_mismatch_v1'
+C:/msys64/mingw64/bin/ld: C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c:824: undefined reference to `__ubsan_handle_add_overflow'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+

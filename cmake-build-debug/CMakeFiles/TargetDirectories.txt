@@ -1,0 +1,3 @@
+C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/HelloWorld.dir
+C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/cmake-build-debug/CMakeFiles/rebuild_cache.dir
