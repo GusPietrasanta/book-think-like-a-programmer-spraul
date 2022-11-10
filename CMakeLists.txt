@@ -4,4 +4,4 @@ project(HelloWorld)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(HelloWorld luhnChecksumMySolution.cpp)
+add_executable(HelloWorld luhnChecksumBookSolution.cpp)
