@@ -15,8 +15,7 @@ std::string currentMode = "uppercase";
 int currentModulo = 27;
 char symbolToPrint;
 
-void printASCIIUppercase(int asciiToPrint);
-void printASCIILowercase(int asciiToPrint);
+void printASCIILetter(int asciiToPrint);
 void printASCIIPunctuation(int asciiToPrint);
 void changeMode();
 
@@ -46,32 +45,25 @@ int main(){
 
 
 void printAppropriateLetter() {
-    if(currentMode == "uppercase"){
-        printASCIIUppercase(buffer);
-    }
-    else if(currentMode == "lowercase"){
-        printASCIILowercase(buffer);
+    if(currentMode != "punctuation"){
+        printASCIILetter(buffer);
     }
     else{
         printASCIIPunctuation(buffer);
     }
 }
 
-void printASCIIUppercase(int asciiToPrint){
+void printASCIILetter(int asciiToPrint){
     if(asciiToPrint == 0){
         return;
     }
     asciiNumber = asciiToPrint % 27;
-    letterToPrint = asciiNumber + 'A' - 1;
-    std::cout << letterToPrint;
-}
-
-void printASCIILowercase(int asciiToPrint){
-    if(asciiToPrint == 0){
-        return;
+    if(currentMode == "uppercase") {
+        letterToPrint = asciiNumber + 'A' - 1;
     }
-    asciiNumber = asciiToPrint % 27;
-    letterToPrint = asciiNumber + 'a' - 1;
+    else{
+        letterToPrint = asciiNumber + 'a' - 1;
+    }
     std::cout << letterToPrint;
 }
 
