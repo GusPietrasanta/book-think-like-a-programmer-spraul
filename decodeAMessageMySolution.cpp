@@ -3,8 +3,6 @@
 //
 #include <iostream>
 
-
-
 int digit;
 int buffer = 0;
 int asciiNumber;
@@ -22,6 +20,7 @@ int main(){
     std::cout << "Enter the coded message:\n";
     // Coded message: 18,12312,171,763,98423,1208,216,11,500,18,241,0,32,20620,27,10
     digit = std::cin.get();
+    // While digit is not a newline (ASCII 10)...
     while(digit != 10){
         if(digit != ','){
         buffer = buffer * 10;
