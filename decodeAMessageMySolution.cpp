@@ -2,27 +2,25 @@
 // Created by GusPietrasanta on 10/11/2022.
 //
 #include <iostream>
-//std::string inputString;
 
-//std::string codedMessage = "18,12312,171,763,98423,1208,216,11,500,18,241,0,32,20620,27,10";
-//std::string outputMessage = "";
+
 
 int digit;
 int buffer = 0;
 int asciiNumber;
-unsigned char letterToPrint;
-std::string currentMode = "uppercase";
 int currentModulo = 27;
 char symbolToPrint;
+unsigned char letterToPrint;
+std::string currentMode = "uppercase";
 
+void changeMode();
+void printAppropriateLetter();
 void printASCIILetter(int asciiToPrint);
 void printASCIIPunctuation(int asciiToPrint);
-void changeMode();
-
-void printAppropriateLetter();
 
 int main(){
     std::cout << "Enter the coded message:\n";
+    // Coded message: 18,12312,171,763,98423,1208,216,11,500,18,241,0,32,20620,27,10
     digit = std::cin.get();
     while(digit != 10){
         if(digit != ','){
