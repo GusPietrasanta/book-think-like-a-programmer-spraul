@@ -95,7 +95,7 @@ void printASCIIPunctuation(int asciiToPrint){
             symbolToPrint = '`';
             break;
         default:
-            symbolToPrint = '*';
+            symbolToPrint = '\'';
             break;
     }
     std::cout << symbolToPrint;

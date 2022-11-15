@@ -4,4 +4,4 @@ project(HelloWorld)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(HelloWorld decodeAMessageMySolution.cpp)
+add_executable(HelloWorld exercise2.2.cpp)
