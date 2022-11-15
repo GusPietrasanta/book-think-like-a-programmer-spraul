@@ -19,9 +19,7 @@ int main(){
             numberOfSpacesToPrint = numberOfSpaces / 2;
         }
         else if(rowNumber == (halfOfTheShape + 1)){
-            numberOfHashes = numberOfHashes;
-            numberOfSpaces = (requiredNumberOfRows - numberOfHashes);
-            numberOfSpacesToPrint = numberOfSpaces / 2;
+            ; // Do nothing
         }
         else{
             numberOfHashes = numberOfHashes - 2;
