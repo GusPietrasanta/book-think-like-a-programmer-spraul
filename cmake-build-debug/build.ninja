@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/USER/CLionProjects/book-think-like-a-programmer-
 
 build cmake_object_order_depends_target_HelloWorld: phony || CMakeFiles/HelloWorld.dir
 
-build CMakeFiles/HelloWorld.dir/exercise2.2.cpp.obj: CXX_COMPILER__HelloWorld_Debug C$:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/exercise2.2.cpp || cmake_object_order_depends_target_HelloWorld
-  DEP_FILE = CMakeFiles\HelloWorld.dir\exercise2.2.cpp.obj.d
+build CMakeFiles/HelloWorld.dir/exercise2.3.cpp.obj: CXX_COMPILER__HelloWorld_Debug C$:/Users/USER/CLionProjects/book-think-like-a-programmer-spraul/exercise2.3.cpp || cmake_object_order_depends_target_HelloWorld
+  DEP_FILE = CMakeFiles\HelloWorld.dir\exercise2.3.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\HelloWorld.dir
   OBJECT_FILE_DIR = CMakeFiles\HelloWorld.dir
@@ -63,7 +63,7 @@ build CMakeFiles/HelloWorld.dir/exercise2.2.cpp.obj: CXX_COMPILER__HelloWorld_De
 #############################################
 # Link the executable HelloWorld.exe
 
-build HelloWorld.exe: CXX_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/exercise2.2.cpp.obj
+build HelloWorld.exe: CXX_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.dir/exercise2.3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\HelloWorld.dir
