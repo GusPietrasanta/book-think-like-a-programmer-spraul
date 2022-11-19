@@ -4,4 +4,4 @@ project(HelloWorld)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(HelloWorld exercise2.3.cpp)
+add_executable(HelloWorld exercise2.4.cpp)
