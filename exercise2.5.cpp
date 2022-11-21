@@ -9,10 +9,12 @@ int main(){
     int digitsCount = 0;
     int currentValueToAdd;
     int currentDigit;
-    int totalSum;
+    int totalSumIfISBN13 = 0;
+    int totalSumIfISBN10 = 0;
     int checkDigit = 0;
 
-    std::cout << "Please enter an ISBN number (12 characters to generate the check digit or 13 to validate it):\n";
+    std::cout << "Please enter an ISBN number "
+                 "(9 or 12 characters to generate the check digit and 10 or 13 to validate it):\n";
     currentDigit = std::cin.get();
     while(currentDigit != 10){
         digitsCount++;
@@ -21,32 +23,47 @@ int main(){
             break;
         }
         currentDigit = currentDigit - '0';
+        if(digitsCount <= 10){
+            totalSumIfISBN10 = totalSumIfISBN10 + (currentDigit * (11 - digitsCount));
+        }
         if(digitsCount % 2 == 1){
-            currentValueToAdd = currentDigit * 1;
+            currentValueToAdd = currentDigit;
         }
         else{
             currentValueToAdd = currentDigit * 3;
         }
-        totalSum = totalSum + currentValueToAdd;
+        totalSumIfISBN13 = totalSumIfISBN13 + currentValueToAdd;
         currentDigit = std::cin.get();
     }
 
     if(digitsCount == 13){
-        std::cout << "The total sum is " << totalSum << " and the check digit is " << checkDigit << ".\n";
-        if(((totalSum + checkDigit) % 10) == 0){
-            std::cout << "The entered ISBN number is VALID.\n";
+        std::cout << "The total sum is " << totalSumIfISBN13 << " and the check digit is " << checkDigit << ".\n";
+        if(((totalSumIfISBN13 + checkDigit) % 10) == 0){
+            std::cout << "The entered ISBN-13 number is VALID.\n";
         }
         else{
-            std::cout << "The entered ISBN number is INVALID.\n";
+            std::cout << "The entered ISBN-13 number is INVALID.\n";
         }
     }
     else if(digitsCount == 12){
-        checkDigit = 10 - (totalSum % 10);
-        std::cout << "The generated check digit for the entered ISBN number is " << checkDigit << ".\n";
+        checkDigit = 10 - (totalSumIfISBN13 % 10);
+        std::cout << "The generated check digit for the entered ISBN-13 number is " << checkDigit << ".\n";
+    }
+    else if(digitsCount == 10) {
+        if (totalSumIfISBN10 % 11 == 0) {
+            std::cout << "The total sum of the entered ISBN-10 number is " << totalSumIfISBN10 << ".\n";
+            std::cout << "The entered ISBN-10 number is VALID.\n";
+        } else {
+            std::cout << "The total sum of the entered ISBN-10 number is " << totalSumIfISBN10 << ".\n";
+            std::cout << "The entered ISBN-10 number is INVALID.\n";
+        }
+    }
+    else if(digitsCount == 9){
+        checkDigit = 11 - (totalSumIfISBN10 % 11);
+        std::cout << "The generated check digit for the entered ISBN-10 number is " << checkDigit << ".\n";
     }
     else{
         std::cout << "Invalid ISBN number entered.\n";
     }
-    // TODO: ISBN 10 generator/validator
     // TODO: ISBN 10 to 13 converter
 }
